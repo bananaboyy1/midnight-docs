@@ -1673,7 +1673,8 @@ html[data-theme='light'] .mn-tile {
   border-radius: 8px;
   border: 1px solid var(--ifm-toc-border-color);
   background: var(--ifm-menu-color-background);
-  width: 100%;
+  width: auto;
+  max-width: calc(100% - 2rem);
   box-sizing: border-box;
 }
 
